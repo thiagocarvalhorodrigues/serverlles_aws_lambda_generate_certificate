@@ -53,7 +53,7 @@ Copy and replace your `url` - found in Serverless `deploy` command output - and 
 
 ### Verifiy Certificate
 curl --request GET \
-  --url https://madz4c6uhi.execute-api.us-east-1.amazonaws.com/dev/veriryTabelas/UUID
+  --url https://myApiEndpoint/dev/veriryTabelas/UUID
 
 
 ```
