@@ -39,7 +39,7 @@ Create certificate:
 Copy and replace your `url` - found in Serverless `deploy` command output - and `name` parameter in the following `curl` command in your terminal or in Postman to test your newly deployed application.
 
 ```
-## Create Certificate
+### Create Certificate
 
     curl --request POST \
   --url http://myApiEndpoint/dev/tabela \
@@ -52,6 +52,7 @@ Copy and replace your `url` - found in Serverless `deploy` command output - and 
 }'
 
 ### Verifiy Certificate
+
 curl --request GET \
   --url https://myApiEndpoint/dev/veriryTabelas/UUID
 
