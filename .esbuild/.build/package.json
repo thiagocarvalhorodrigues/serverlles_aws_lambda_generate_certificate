@@ -1,0 +1,10 @@
+{
+  "name": "certificatejs",
+  "version": "1.0.0",
+  "description": "Packaged externals for certificatejs",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0"
+  }
+}
