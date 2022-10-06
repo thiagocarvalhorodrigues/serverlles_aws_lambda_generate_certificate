@@ -34,6 +34,13 @@ Create certificate:
 
 ![image](https://user-images.githubusercontent.com/23345809/194385307-34fa930d-b1fc-4df8-a3e2-2bd999f81941.png)
 
+ ## Init dynamodb
+ 
+ - ` npm run dynamodb:start` if you're using NPM
+ 
+ - `yarn dynamodb:start` if you're using Yarn
+
+
 ### Remotely
 
 Copy and replace your `url` - found in Serverless `deploy` command output - and `name` parameter in the following `curl` command in your terminal or in Postman to test your newly deployed application.
@@ -51,10 +58,25 @@ Copy and replace your `url` - found in Serverless `deploy` command output - and 
 	"grade": "10"	
 }'
 
+```
+
+Exit
+
+![image](https://user-images.githubusercontent.com/23345809/194386806-95f4c436-7d47-43fb-a36e-aa4daa6b5d7b.png)
+
+
+```
+
 ### Verifiy Certificate
 
 curl --request GET \
   --url https://myApiEndpoint/dev/veriryTabelas/UUID
-
+  }'
 
 ```
+Exit
+
+![image](https://user-images.githubusercontent.com/23345809/194386515-331e5c0f-57c8-484f-9b75-3dc1d2f92794.png)
+
+
+
